@@ -1,0 +1,13 @@
+.container, .inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid orange;
+    background-color: blueviolet;
+}
+.inner{
+    border: 2px solid cadetblue;
+    background-color: burlywood;
+    transform: rotate(60deg) scale(0.50) translate(30px);
+}
