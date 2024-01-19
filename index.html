@@ -3,48 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Practice</title>
- 
 </head>
 <body>
-<section id="destinations">
-    <div class="container">
-        <div class="heading">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident dignissimos cupiditate in ullam laudantium, earum harum aspernatur? Reprehenderit, consectetur.</p>
-        </div>
-        <div class="gallary">
-            <div class="item item-1">
-                <img src="r4.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-2">
-                <img src="r8.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-3">
-                <img src="r5.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-4">
-                <img src="r6.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-5">
-                <img src="r11.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-6">
-                <img src="r10.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-            <div class="item item-7">
-                <img src="r9.png" alt="">
-                <p class="text-above">maldivs</p>
-            </div>
-        </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+        <div class="bg-yellow-500 md:col-span-4 mt-10">Header</div>
+        <div class="bg-yellow-500 ">Nav</div>
+        <div class="bg-yellow-500 md:col-span-3 h-48">Main Content</div>
+        <div class="bg-yellow-500 md:col-span-4">Footer</div>
     </div>
-</section>
 </body>
 </html>
