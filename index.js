@@ -1,6 +1,2 @@
-let number = [1, 2, 3, 4, 5];
-console.log(number);
-number.push(6);
-console.log(number);
-number.push(7);
-console.log(number);
+const friends= ['jahid', 'tashin', 'salim', 'taher'];
+console.log(friends.includes('dewan'));
