@@ -1,3 +1,3 @@
-let arry = [1,2,3,4,5]
-arry.push(6);
-console.log(arry);
+for(let n = 0; n <= 10; n++){
+    console.log(n);
+}
