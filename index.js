@@ -1,6 +1,13 @@
-const sen = `I am a web dev`;
-let rev = '';
-for(const letter of sen){
-    rev=letter+rev;
+const mobile = {
+    brand:`Samsung`,
+    price: 25000,
+    color: `Black`,
+    camera: `12mp`,
+    isNew: true
 }
-console.log(rev);
+for(const prop in mobile){
+    // console.log(prop);
+    // console.log(mobile[prop]);
+}
+const keys =Object.keys(mobile);
+console.log(keys);
