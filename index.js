@@ -1,10 +1,6 @@
-const sub = `Chemistry`;
-const book = `chemistry`;
-console.log(sub.toLocaleLowerCase());
-console.log(book.toLocaleLowerCase());
-if(sub.toLocaleLowerCase() == book.toLocaleLowerCase()){
-    console.log("Same");
+const sen = `I am a web dev`;
+let rev = '';
+for(const letter of sen){
+    rev=letter+rev;
 }
-else{
-    console.log("not same");
-}
+console.log(rev);
