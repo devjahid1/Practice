@@ -1,13 +1,6 @@
-const mobile = {
-    brand:`Samsung`,
-    price: 25000,
-    color: `Black`,
-    camera: `12mp`,
-    isNew: true
+const friend = [`elon`, `Bill`, `Mark`, `waren`];
+
+for(let i = 0; i < friend.length; i++){
+    console.log(i); 
+    console.log(friend[i]); 
 }
-for(const prop in mobile){
-    // console.log(prop);
-    // console.log(mobile[prop]);
-}
-const keys =Object.keys(mobile);
-console.log(keys);
