@@ -1,6 +1,6 @@
-const friend = [`elon`, `Bill`, `Mark`, `waren`];
-
-for(let i = 0; i < friend.length; i++){
-    console.log(i); 
-    console.log(friend[i]); 
+function myFun(){
+    console.log(`Turn On The Fan`);
+    console.log(`Walk towards the switch`);
+    console.log(`Click the switch to off the fan`);
 }
+myFun();
