@@ -1,7 +1,5 @@
-function diff(num1, num2){
-const sum = num1 - num2;
-console.log(sum);
+function feetToInch(inch) {
+    return inch/12; 
 }
-const f = 10;
-const y = 5;
-diff(f, y);
+const sum=feetToInch(75);
+console.log(sum);
