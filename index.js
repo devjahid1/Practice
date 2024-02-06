@@ -1,9 +1,5 @@
-function inchToFeet(inch){
-    const feet = inch/12;
-    const feetSum = parseInt(feet);
-    const inchSum = inch % 12;
-   const result = feetSum+'Ft'+inchSum+'inch';
-   return result;
+function mileToKilo(mile){
+    return tMile = mile * 1.60934;
 }
-const sum=inchToFeet(75);
+const sum = mileToKilo(2);
 console.log(sum);
