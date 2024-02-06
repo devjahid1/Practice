@@ -1,5 +1,9 @@
-function feetToInch(inch) {
-    return inch/12; 
+function inchToFeet(inch){
+    const feet = inch/12;
+    const feetSum = parseInt(feet);
+    const inchSum = inch % 12;
+   const result = feetSum+'Ft'+inchSum+'inch';
+   return result;
 }
-const sum=feetToInch(75);
+const sum=inchToFeet(75);
 console.log(sum);
