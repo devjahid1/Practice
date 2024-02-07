@@ -1,5 +1,13 @@
-function mileToKilo(mile){
-    return tMile = mile * 1.60934;
+function leapYear(year){
+    if(year % 4 === 0){
+        return true;
+    }
+    else if(year % 100 !== 0 && year %400 === 0){
+        return true;
+    }
+    else{
+        return false
+    }
 }
-const sum = mileToKilo(2);
-console.log(sum);
+const result=leapYear(2024);
+console.log(result);
